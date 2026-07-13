@@ -1,1 +1,0 @@
-# Estudio-de-Cobertura-Wifi-en-la-Banda-2.4-GHz-en-FIEE-UNMSM-Pabell-n-B
