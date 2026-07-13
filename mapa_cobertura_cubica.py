@@ -16,12 +16,7 @@ ARCHIVOS = {
 # 2. CONFIGURACIÓN
 UMBRAL_ZONA_MUERTA = -75   # dBm — ajusta según tu criterio
 
-# Rango de la escala de colores (RSSI). Antes estaba fijo en -95/-35, lo cual
-# "aplastaba" la paleta cuando había algún dato atípico muy fuerte (ej. -37 dBm),
-# dejando casi todo el mapa en tonos verde-amarillo y el rojo casi invisible.
-# Si RANGO_AUTOMATICO = True, cada red/piso usa el rango real de sus propios datos
-# (percentil 1-99 para evitar que un outlier siga distorsionando la escala).
-# Si RANGO_AUTOMATICO = False, se usa el rango fijo definido en VMIN_FIJO/VMAX_FIJO.
+
 RANGO_AUTOMATICO = False
 VMIN_FIJO = -95
 VMAX_FIJO = -55   # antes era -35; ajustado a un valor de señal "buena" realista
