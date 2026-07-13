@@ -1,0 +1,12 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Imágenes generadas por el script (se regeneran al ejecutar)
+mapa_rssi_*.png
+
+# Archivos del sistema
+.DS_Store
