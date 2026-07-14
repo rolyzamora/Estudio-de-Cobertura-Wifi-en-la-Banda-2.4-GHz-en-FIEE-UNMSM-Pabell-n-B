@@ -14,7 +14,17 @@ calor por piso, mostrando:
 - Zonas muertas resaltadas en rojo
 - Ubicación del router (origen 0,0)
 
-## 🚀 Cómo ejecutarlo
+## 🖥️ Opcion 1: Ejecutarlo sin instalar nada, en el mismo Github
+
+Si prefieres no instalar Python localmente, puedes usar **GitHub Codespaces**:
+1. En la página del repo, haz clic en **Code → Codespaces → Create codespace**.
+2. Una vez cargado el entorno, ejecuta en la terminal:
+   ```bash
+   pip install -r requirements.txt
+   python mapa_cobertura_cubica.py
+   ```
+
+## 🚀 Opcion 2: Cómo ejecutarlo si deseas instalarlo
 
 ### 1. Clona el repositorio
 ```bash
@@ -80,16 +90,6 @@ Puedes ajustar estos parámetros al inicio del script `mapa_cobertura_cubica.py`
 - scipy
 
 Todas listadas en `requirements.txt`.
-
-## 🖥️ Ejecutarlo sin instalar nada (opcional)
-
-Si prefieres no instalar Python localmente, puedes usar **GitHub Codespaces**:
-1. En la página del repo, haz clic en **Code → Codespaces → Create codespace**.
-2. Una vez cargado el entorno, ejecuta en la terminal:
-   ```bash
-   pip install -r requirements.txt
-   python mapa_cobertura_cubica.py
-   ```
 
 ## 📄 Licencia
 
